@@ -1,0 +1,82 @@
+ .contactHead {
+    width: 50%;
+} 
+.contactHead h2 {
+    
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.paragContact {
+    
+    font-size: 14px;
+    color: #6f6767;
+    padding-bottom: 30px;
+}
+.contactPhone {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactPhone .phone{
+   
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px 20px;
+}
+.contactPhone .phone svg {
+    font-size: 80px;
+    color: var(--color);
+}
+.contactPhone .phone p{   
+    font-weight: 600;
+    font-size: 21px;
+}
+.contactPhone .phone span{
+    color: #c3bebe;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inputContact {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 0px 30px;
+}
+.inputContact label{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /* padding-left: 10px; */
+    font-size: 14px;
+}
+.inputContact input , textarea{
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(231, 228, 228);
+    outline: none;
+}
+.btnContact {
+    padding: 50px 0px 30px;
+}
+.btnContact button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+@media (max-width:992px) {
+    form {
+        margin-top: 40px;
+    }
+}

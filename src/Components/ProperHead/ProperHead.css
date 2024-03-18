@@ -1,0 +1,25 @@
+.pro-head{
+    position: relative;
+    bottom: -110px;
+    background-image: url("../../assets/image/heading-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.pro-head .content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro-head .content p{
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+}
+.pro-head .content h1{
+    font-weight: 900;
+    font-size: 55px;
+}

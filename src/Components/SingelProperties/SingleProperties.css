@@ -1,0 +1,21 @@
+.singleSec .row {
+    justify-content: space-between;
+}
+.single {
+    width: 100%;
+}
+.singleText {
+    padding: 40px 0px;
+    border-bottom: 1px solid #e2dfdf;
+}
+.singleDisc {
+    
+    background-color: antiquewhite;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.singleTit {
+    font-weight: 700;
+    font-size: 25px;
+}

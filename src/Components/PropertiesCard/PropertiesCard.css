@@ -1,0 +1,49 @@
+.secCard {
+    padding-top: 120px;
+}
+
+.navSec .navSecList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.navSec .navSecList .navSecItem{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+@media (max-width:767px) {
+    .navSec .navSecList .navSecItem {
+        padding: 10px;
+    }
+}
+.navSec .navSecList .active {
+  background-color: var(--color) !important;
+}
+
+.next { 
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    left: -40px;
+}
+.next li{
+    
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.next .active {
+    background-color: var(--color);
+}

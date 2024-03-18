@@ -1,0 +1,13 @@
+.contentFooter {
+    background-color: black;
+    color: white;
+    padding: 30px 200px;
+}
+.contentFooter p {
+    margin-bottom: 0 !important;
+}
+@media (max-width:767) {
+    .contentFooter {
+        padding: 30px 40px;
+    }
+}

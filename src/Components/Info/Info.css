@@ -1,0 +1,67 @@
+.sub-header {
+    padding: 12px 0px 10px;
+    border-bottom: 1px solid #ebe8e8;
+}
+.hu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-bottom: 10px !important ; */
+}
+
+.hu .hu1 {
+    display: flex;
+    gap: 20px;
+}
+.hu .hu2 {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 14px;
+    color: #7a7a7a;
+    
+}
+
+.hu .huu2 {  
+    border-right: 1px solid #eee;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+
+.hu .hu2 svg {
+    color: var(--color);
+    margin-right: 8px;
+    font-size: 20px;
+}
+/* .hu .hu2 p { 
+    color: #777;
+    font-weight: 300;
+} */
+.hu .hu3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.hu .hu3 .huicon{
+    background-color: #cdcdcd;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.hu .hu3 .huicon:hover {
+    background-color: var(--color);
+}
+.hu .hu3 .huicon svg {
+    color: white;
+}
+
+    @media (max-width: 993px) {
+        .sub-header {
+            display: none;
+        }
+    }

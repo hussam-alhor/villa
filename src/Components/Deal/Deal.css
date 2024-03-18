@@ -1,0 +1,47 @@
+.best-deal { 
+    background-color: #fafafa;
+    padding: 100px 0px;
+}
+.section-heading {
+    margin-bottom: 70px;
+}
+.section-heading h6 {   
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section-heading h2 {   
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+ .tabs-content{
+    padding: 0px;
+    background-color: transparent;
+}
+
+.tabs-content .tap-content ul {
+    
+    border-bottom: none !important;
+    margin-bottom: 80px;
+    align-items: end;
+    justify-content: end;
+    margin-top: -130px;
+}
+.tap-content ul .itemm {
+    padding-right: 0px;
+    border-right: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1e1e1e !important;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #fff;
+}
