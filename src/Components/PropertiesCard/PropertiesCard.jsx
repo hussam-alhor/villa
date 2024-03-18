@@ -4,8 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import prorer from "./../../assets/image/property-01.jpg"
 import { Col, Container, Row } from 'react-bootstrap';
-
-
+import { FaAnglesRight } from "react-icons/fa6";
 const PropertiseCard = () => {
  
     const card = [
@@ -213,7 +212,7 @@ const PropertiseCard = () => {
                     <li className='active'>1</li>
                     <li>2</li>
                     <li>3</li>
-                    <li>>></li>
+                    <li><FaAnglesRight/></li>
                 </ul>
           </Container>
       </div>
